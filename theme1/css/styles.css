@@ -1,0 +1,137 @@
+html, body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.background {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  background: #092756;
+  background: -moz-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%),-moz-linear-gradient(top, rgba(57,173,219,.25) 0%, rgba(42,60,87,.4) 100%), -moz-linear-gradient(-45deg, #670d10 0%, #092756 100%);
+  background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), -webkit-linear-gradient(top, rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), -webkit-linear-gradient(-45deg, #670d10 0%,#092756 100%);
+  background: -o-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), -o-linear-gradient(top, rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), -o-linear-gradient(-45deg, #670d10 0%,#092756 100%);
+  background: -ms-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), -ms-linear-gradient(top, rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), -ms-linear-gradient(-45deg, #670d10 0%,#092756 100%);
+  background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), linear-gradient(to bottom, rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), linear-gradient(135deg, #670d10 0%,#092756 100%);
+}
+
+.topbar {
+  display: flex;
+  flex-flow: row;
+  flex: 0 0 auto;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.actions {
+  display: flex;
+  flex-flow: row;
+  flex: 0 0 auto;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.icon {
+  color: rgba(238, 238, 238, 0.8);
+  font-size: 30px;
+}
+
+.box {
+  display: flex;
+  flex-flow: row;
+  flex: 0 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(0, 0, 0, 0);
+
+  width: 50%;
+  height: auto;
+
+  border-radius: 0.5rem;
+}
+
+.user-list {
+  flex: 1 1 auto;
+  background: rgba(33, 33, 33, 0.2);
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.login-box {
+  flex: 1 1 auto;
+  background: rgba(238, 238, 238, 0.2);
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.login-form {
+  display: flex;
+  flex-flow: column;
+  padding: 1rem;
+}
+
+.form-field {
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+a {
+  margin: 0 0.5rem;
+}
+
+input {
+  width: 100%;
+  border: none;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  border: 1px solid rgba(33, 33, 33, 0.05);
+  border-radius: 10rem;
+  box-shadow: 0 0 20px rgba(33, 33, 33, 0.2);
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+input:hover, input:active, input:focus {
+  outline: none;
+}
+
+input[name='username'] {
+
+}
+
+input[name='password'] {
+
+}
+
+.login-button {
+  width: 100%;
+  border: none;
+  padding: 0.5rem;
+  background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+  color: #FAFAFA;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  border-radius: 10rem;
+  box-shadow: 0 0 20px rgba(33, 33, 33, 0.2);
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-position: right center;
+}
